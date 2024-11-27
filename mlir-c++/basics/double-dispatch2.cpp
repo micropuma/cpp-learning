@@ -22,6 +22,7 @@ class Middle : public Target, public Base
 {
 } ;
 
+// 动态转发
 template< class T > class F : virtual public Middle
 {
 protected :
